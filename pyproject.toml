@@ -1,5 +1,5 @@
 [project]
-name = "rlm"
+name = "pi-rlm"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -9,6 +9,9 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = []
+
+[project.scripts]
+rlm = "rlm:main"
 
 [project.urls]
 Homepage = "https://github.com/rasdani/rlm"
